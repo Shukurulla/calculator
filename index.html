@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <table>
+      <tr class="relative">
+        <td>
+          <input type="text" id="display" placeholder="0" disabled />
+        </td>
+        <td class="absolute">
+          <button class="delete"><i class="bi bi-backspace"></i></button>
+        </td>
+      </tr>
+      <tr>
+        <td><button value="9" id="btn">9</button></td>
+        <td><button value="8" id="btn">8</button></td>
+        <td><button value="7" id="btn">7</button></td>
+        <td><button id="operator">*</button></td>
+      </tr>
+      <tr>
+        <td><button value="6" id="btn">6</button></td>
+        <td><button value="5" id="btn">5</button></td>
+        <td><button value="4" id="btn">4</button></td>
+        <td><button id="operator">/</button></td>
+      </tr>
+      <tr>
+        <td><button value="3" id="btn">3</button></td>
+        <td><button value="2" id="btn">2</button></td>
+        <td><button value="1" id="btn">1</button></td>
+        <td><button id="operator">+</button></td>
+      </tr>
+      <tr>
+        <td><button value="C" id="clear">C</button></td>
+        <td><button value="0" id="btn">0</button></td>
+        <td><button value="=" id="equal">=</button></td>
+        <td><button id="operator" class="minus">-</button></td>
+      </tr>
+    </table>
+    <script src="./script.js"></script>
+  </body>
+</html>
